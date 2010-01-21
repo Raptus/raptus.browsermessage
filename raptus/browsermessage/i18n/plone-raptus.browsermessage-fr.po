@@ -1,7 +1,3 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# French translations for zi package
-# Traductions francaises du paquet zi.
-# Simon Käser <skaeser@raptus.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: raptus.browsermessage\n"
@@ -21,4 +17,4 @@ msgstr ""
 
 #. Default: "Manage browser message"
 msgid "Manage browser message"
-msgstr ""
+msgstr "Gérer le message navigateur"

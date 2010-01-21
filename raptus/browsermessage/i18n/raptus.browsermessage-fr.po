@@ -1,7 +1,3 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# French translations for zi package
-# Traductions francaises du paquet zi.
-# Simon Käser <skaeser@raptus.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: raptus.browsermessage\n"
@@ -22,62 +18,62 @@ msgstr ""
 #. Default: "Browsers for which the message appears"
 #: browser/configlet.pt:46
 msgid "Browsers for which the message appears"
-msgstr ""
+msgstr "Navigateurs qui montrent ce message"
 
 #. Default: "Browsers to suggest"
 #: browser/configlet.pt:82
 msgid "Browsers to suggest"
-msgstr ""
+msgstr "Navigateurs à recommander"
 
 #. Default: "Chrome"
 #: profiles/default/actionicons.xml profiles/default/actions.xml
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #. Default: "Firefox"
 #: profiles/default/actionicons.xml profiles/default/actions.xml
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #. Default: "Ignore"
 #: browser/viewlet.pt:34
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorer"
 
 #. Default: "Manage browser message"
 #: browser/configlet.pt:24
 msgid "Manage browser message"
-msgstr ""
+msgstr "Gérer le message navigateur"
 
 #. Default: "Opera"
 #: profiles/default/actionicons.xml profiles/default/actions.xml
 msgid "Opera"
-msgstr ""
+msgstr "Opera"
 
 #. Default: "Please upgrade"
 #: browser/viewlet.pt:11
 msgid "Please upgrade"
-msgstr ""
+msgstr "Veuillez mettre à jour"
 
 #. Default: "Safari"
 #: profiles/default/actionicons.xml profiles/default/actions.xml
 msgid "Safari"
-msgstr ""
+msgstr "Safari"
 
 #. Default: "Select"
 #: browser/configlet.pt:42
 msgid "Select"
-msgstr ""
+msgstr "Choisir"
 
 #. Default: "Select the Browsers for which the upgrade message shall appear"
 #: browser/configlet.pt:51
 msgid "Select the Browsers for which the upgrade message shall appear"
-msgstr ""
+msgstr "Choisissez les navigateurs pour lesquels le message de mise à jour doit apparaître"
 
 #. Default: "Select the Browsers to present to the user for upgrade"
 #: browser/configlet.pt:87
 msgid "Select the Browsers to present to the user for upgrade"
-msgstr ""
+msgstr "Choisissez les navigateurs présentés à l'utilisateur pour la mise à jour"
 
 #. Default: "This website has not been tested in your Browser (${browser}), you may come across layout or functionality problems, which may result in inaccessible content or behaviour."
 #: browser/viewlet.pt:8
@@ -85,9 +81,9 @@ msgid ""
 "This website has not been tested in your Browser (${browser}), you may come "
 "across layout or functionality problems, which may result in inaccessible "
 "content or behaviour."
-msgstr ""
+msgstr "Ce site web n'a pas été testé avec votre navigateur (${browser}), vous pourriez rencontrer des problèmes d'affichage ou de fonctionalité, ce qui pourrait à son tour rendre inaccessible certaines information ou fonctions pour vous."
 
 #. Default: "Your Browser is not up to date"
 #: browser/viewlet.pt:3
 msgid "Your Browser is not up to date"
-msgstr ""
+msgstr "Votre navigateur n'est pas à jour."
