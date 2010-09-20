@@ -7,7 +7,7 @@
    <property name="title" i18n:translate="">Firefox</property>
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:http://getfirefox.com</property>
-   <property name="icon_expr"></property>
+   <property name="icon_expr">string:firefox.png</property>
    <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>
@@ -18,7 +18,7 @@
    <property name="title" i18n:translate="">Chrome</property>
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:http://chrome.google.com</property>
-   <property name="icon_expr"></property>
+   <property name="icon_expr">string:chrome.png</property>
    <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>
@@ -30,7 +30,7 @@
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:http://apple.com/safari/</property>
    <property name="icon_expr"></property>
-   <property name="available_expr"></property>
+   <property name="available_expr">string:safari.png</property>
    <property name="permissions">
     <element value="View"/>
    </property>
@@ -40,7 +40,7 @@
    <property name="title" i18n:translate="">Opera</property>
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:http://opera.com/browser/download/</property>
-   <property name="icon_expr"></property>
+   <property name="icon_expr">string:opera.png</property>
    <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>

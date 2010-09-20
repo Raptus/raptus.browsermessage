@@ -1,5 +1,10 @@
 Changelog
 =========
+2.0b1 (2010-09-16)
+------------------
+
+* Plone 4 compatibility
+  fix actions-icons for plone 4
 
 1.0a1 - (2010-08-07)
 --------------------
