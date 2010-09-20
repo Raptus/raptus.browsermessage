@@ -29,8 +29,8 @@
    <property name="title" i18n:translate="">Safari</property>
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:http://apple.com/safari/</property>
-   <property name="icon_expr"></property>
-   <property name="available_expr">string:safari.png</property>
+   <property name="icon_expr">string:safari.png</property>
+   <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>
    </property>
