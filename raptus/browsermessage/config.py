@@ -1,3 +1,5 @@
+from raptus.browsermessage import browsermessageMessageFactory as _
+
 BROWSERS = [
     ("isWebKit","WebKit"),
     ("isOpera","Opera"),
@@ -16,18 +18,18 @@ BROWSERS = [
     ("isFirefox1","Firefox 1"),
     ("isFirefox2","Firefox 2"),
     ("isFirefox3","Firefox 3"),
-    ("isSafariOnMac","Safari on Mac"),
-    ("isSafariOnWin","Safari on Win"),
-    ("isGeckoOnMac","Gecko on Mac"),
-    ("isGeckoOnLinux","Gecko on Linux"),
-    ("isGeckoOnWin","Gecko on Win"),
-    ("isFirefoxOnMac","Firefox on Mac"),
-    ("isFirefoxOnLinux","Firefox on Linux"),
-    ("isFirefoxOnWin","Firefox on Win"),
-    ("isOperaOnMac","Opera on Mac"),
-    ("isOperaOnLinux","Opera on Linux"),
-    ("isOperaOnWin","Opera on Win"),
-    ("isChromeOnMac","Chrome on Mac"),
-    ("isChromeOnLinux","Chrome on Linux"),
-    ("isChromeOnWin","Chrome on Win")
+    ("isSafariOnMac",_(u"Safari on Mac")),
+    ("isSafariOnWin",_(u"Safari on Win")),
+    ("isGeckoOnMac",_(u"Gecko on Mac")),
+    ("isGeckoOnLinux",_(u"Gecko on Linux")),
+    ("isGeckoOnWin",_(u"Gecko on Win")),
+    ("isFirefoxOnMac",_(u"Firefox on Mac")),
+    ("isFirefoxOnLinux",_(u"Firefox on Linux")),
+    ("isFirefoxOnWin",_(u"Firefox on Win")),
+    ("isOperaOnMac",_(u"Opera on Mac")),
+    ("isOperaOnLinux",_(u"Opera on Linux")),
+    ("isOperaOnWin",_(u"Opera on Win")),
+    ("isChromeOnMac",_(u"Chrome on Mac")),
+    ("isChromeOnLinux",_(u"Chrome on Linux")),
+    ("isChromeOnWin",_(u"Chrome on Win"))
 ]
