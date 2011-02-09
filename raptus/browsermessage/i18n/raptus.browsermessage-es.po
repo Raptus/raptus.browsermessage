@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: raptus.browsermessage\n"
 "POT-Creation-Date: 2009-09-02 07:33+0000\n"
-"PO-Revision-Date: 2011-02-09 17:44-0400\n"
+"PO-Revision-Date: 2011-02-09 18:25-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
 "MIME-Version: 1.0\n"
@@ -38,6 +38,18 @@ msgstr "Navegadores a sugerir"
 msgid "Chrome"
 msgstr "Chrome"
 
+#: ../config.py:33
+msgid "Chrome on Linux"
+msgstr "Chrome en GNU/Linux"
+
+#: ../config.py:32
+msgid "Chrome on Mac"
+msgstr "Chrome en Mac OS"
+
+#: ../config.py:34
+msgid "Chrome on Win"
+msgstr "Chrome en MS Windows"
+
 #: ../profiles/default/actions.xml
 msgid "Chromium"
 msgstr "Chromium"
@@ -47,9 +59,33 @@ msgstr "Chromium"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: ../config.py:27
+msgid "Firefox on Linux"
+msgstr "Firefox en GNU/Linux"
+
+#: ../config.py:26
+msgid "Firefox on Mac"
+msgstr "Firefox en Mac OS"
+
+#: ../config.py:28
+msgid "Firefox on Win"
+msgstr "Firefox en MS Windows"
+
 #: ../profiles/default/actions.xml
 msgid "GNU version of the Mozilla Firefox"
 msgstr "Versión GNU de Mozilla Firefox"
+
+#: ../config.py:24
+msgid "Gecko on Linux"
+msgstr "Gecko en GNU/Linux"
+
+#: ../config.py:23
+msgid "Gecko on Mac"
+msgstr "Gecko en Mac OS"
+
+#: ../config.py:25
+msgid "Gecko on Win"
+msgstr "Gecko en MS Windows"
 
 #: ../profiles/default/actions.xml
 msgid "Google Chrome"
@@ -57,12 +93,16 @@ msgstr "Google Chrome"
 
 #: ../profiles/default/actions.xml
 msgid "IceCat"
-msgstr "GNU IceCat "
+msgstr "GNU IceCat"
 
 #. Default: "Ignore"
 #: ../browser/viewlet.pt:35
 msgid "Ignore"
 msgstr "Ignorar"
+
+#: ../browser/viewlet.pt:35
+msgid "Ignore this message"
+msgstr "Ignorar este mensaje"
 
 #. Default: "Manage browser message"
 #: ../browser/configlet.pt:24
@@ -82,6 +122,18 @@ msgstr "Opera"
 msgid "Opera Web browser"
 msgstr "Navegador Web Opera"
 
+#: ../config.py:30
+msgid "Opera on Linux"
+msgstr "Opera en GNU/Linux"
+
+#: ../config.py:29
+msgid "Opera on Mac"
+msgstr "Opera en Mac OS"
+
+#: ../config.py:31
+msgid "Opera on Win"
+msgstr "Opera en MS Windows"
+
 #. Default: "Please upgrade"
 #: ../browser/viewlet.pt:13
 msgid "Please upgrade"
@@ -91,6 +143,14 @@ msgstr "Por favor, actualice a:"
 #: ../profiles/default/actions.xml
 msgid "Safari"
 msgstr "Safari"
+
+#: ../config.py:21
+msgid "Safari on Mac"
+msgstr "Safari en Mac OS"
+
+#: ../config.py:22
+msgid "Safari on Win"
+msgstr "Safari en MS Windows"
 
 #. Default: "Select"
 #: ../browser/configlet.pt:42

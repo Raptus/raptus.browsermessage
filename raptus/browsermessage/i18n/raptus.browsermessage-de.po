@@ -38,6 +38,18 @@ msgstr "Browser die vorgeschlagen werden"
 msgid "Chrome"
 msgstr ""
 
+#: ../config.py:33
+msgid "Chrome on Linux"
+msgstr ""
+
+#: ../config.py:32
+msgid "Chrome on Mac"
+msgstr ""
+
+#: ../config.py:34
+msgid "Chrome on Win"
+msgstr ""
+
 #: ../profiles/default/actions.xml
 msgid "Chromium"
 msgstr ""
@@ -47,8 +59,32 @@ msgstr ""
 msgid "Firefox"
 msgstr ""
 
+#: ../config.py:27
+msgid "Firefox on Linux"
+msgstr ""
+
+#: ../config.py:26
+msgid "Firefox on Mac"
+msgstr ""
+
+#: ../config.py:28
+msgid "Firefox on Win"
+msgstr ""
+
 #: ../profiles/default/actions.xml
 msgid "GNU version of the Mozilla Firefox"
+msgstr ""
+
+#: ../config.py:24
+msgid "Gecko on Linux"
+msgstr ""
+
+#: ../config.py:23
+msgid "Gecko on Mac"
+msgstr ""
+
+#: ../config.py:25
+msgid "Gecko on Win"
 msgstr ""
 
 #: ../profiles/default/actions.xml
@@ -63,6 +99,10 @@ msgstr ""
 #: ../browser/viewlet.pt:35
 msgid "Ignore"
 msgstr "Ignorieren"
+
+#: ../browser/viewlet.pt:35
+msgid "Ignore this message"
+msgstr ""
 
 #. Default: "Manage browser message"
 #: ../browser/configlet.pt:24
@@ -82,6 +122,18 @@ msgstr ""
 msgid "Opera Web browser"
 msgstr ""
 
+#: ../config.py:30
+msgid "Opera on Linux"
+msgstr ""
+
+#: ../config.py:29
+msgid "Opera on Mac"
+msgstr ""
+
+#: ../config.py:31
+msgid "Opera on Win"
+msgstr ""
+
 #. Default: "Please upgrade"
 #: ../browser/viewlet.pt:13
 msgid "Please upgrade"
@@ -90,6 +142,14 @@ msgstr "Bitte updaten"
 #. Default: "Safari"
 #: ../profiles/default/actions.xml
 msgid "Safari"
+msgstr ""
+
+#: ../config.py:21
+msgid "Safari on Mac"
+msgstr ""
+
+#: ../config.py:22
+msgid "Safari on Win"
 msgstr ""
 
 #. Default: "Select"
