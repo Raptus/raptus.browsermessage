@@ -17,6 +17,8 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 
-#. Default: "Manage browser message"
+#: ../profiles/default/controlpanel.xml
+#: ../profiles/uninstall/controlpanel.xml
 msgid "Manage browser message"
 msgstr ""
+
