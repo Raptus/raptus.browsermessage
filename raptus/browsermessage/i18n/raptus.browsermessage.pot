@@ -17,77 +17,99 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: raptus.browsermessage\n"
 
-#. Default: "Browsers for which the message appears"
-#: ./browser/configlet.pt:46
+#: ../profiles/default/actions.xml
+msgid "A open-source Google Chrome version"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Apple Safari"
+msgstr ""
+
+#: ../browser/configlet.pt:46
 msgid "Browsers for which the message appears"
 msgstr ""
 
-#. Default: "Browsers to suggest"
-#: ./browser/configlet.pt:82
+#: ../browser/configlet.pt:82
 msgid "Browsers to suggest"
 msgstr ""
 
-#. Default: "Chrome"
-#: ./profiles/default/actionicons.xml
-#: ./profiles/default/actions.xml
+#: ../profiles/default/actions.xml
 msgid "Chrome"
 msgstr ""
 
-#. Default: "Firefox"
-#: ./profiles/default/actionicons.xml
-#: ./profiles/default/actions.xml
+#: ../profiles/default/actions.xml
+msgid "Chromium"
+msgstr ""
+
+#: ../profiles/default/actions.xml
 msgid "Firefox"
 msgstr ""
 
-#. Default: "Ignore"
-#: ./browser/viewlet.pt:34
+#: ../profiles/default/actions.xml
+msgid "GNU version of the Mozilla Firefox"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Google Chrome"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "IceCat"
+msgstr ""
+
+#: ../browser/viewlet.pt:35
 msgid "Ignore"
 msgstr ""
 
-#. Default: "Manage browser message"
-#: ./browser/configlet.pt:24
+#: ../browser/configlet.pt:24
 msgid "Manage browser message"
 msgstr ""
 
-#. Default: "Opera"
-#: ./profiles/default/actionicons.xml
-#: ./profiles/default/actions.xml
+#: ../profiles/default/actions.xml
+msgid "Mozilla Firefox"
+msgstr ""
+
+#: ../profiles/default/actions.xml
 msgid "Opera"
 msgstr ""
 
-#. Default: "Please upgrade"
-#: ./browser/viewlet.pt:11
+#: ../profiles/default/actions.xml
+msgid "Opera Web browser"
+msgstr ""
+
+#: ../browser/viewlet.pt:13
 msgid "Please upgrade"
 msgstr ""
 
-#. Default: "Safari"
-#: ./profiles/default/actionicons.xml
-#: ./profiles/default/actions.xml
+#: ../profiles/default/actions.xml
 msgid "Safari"
 msgstr ""
 
-#. Default: "Select"
-#: ./browser/configlet.pt:42
+#: ../browser/configlet.pt:42
 msgid "Select"
 msgstr ""
 
-#. Default: "Select the Browsers for which the upgrade message shall appear"
-#: ./browser/configlet.pt:51
+#: ../browser/configlet.pt:51
 msgid "Select the Browsers for which the upgrade message shall appear"
 msgstr ""
 
-#. Default: "Select the Browsers to present to the user for upgrade"
-#: ./browser/configlet.pt:87
+#: ../browser/configlet.pt:87
 msgid "Select the Browsers to present to the user for upgrade"
 msgstr ""
 
-#. Default: "This website has not been tested in your Browser (${browser}), you may come across layout or functionality problems, which may result in inaccessible content or behaviour."
-#: ./browser/viewlet.pt:8
+#: ../profiles/default/actions.xml
+msgid "Swiftweasel"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Swiftweasel Web browser"
+msgstr ""
+
+#: ../browser/viewlet.pt:10
 msgid "This website has not been tested in your Browser (${browser}), you may come across layout or functionality problems, which may result in inaccessible content or behaviour."
 msgstr ""
 
-#. Default: "Your Browser is not up to date"
-#: ./browser/viewlet.pt:3
+#: ../browser/viewlet.pt:5
 msgid "Your Browser is not up to date"
 msgstr ""
 
