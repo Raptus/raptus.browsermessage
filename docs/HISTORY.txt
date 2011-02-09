@@ -9,6 +9,10 @@ Changelog
 
 * Added Spanish Translation
 
+* Added a bash script for generate Translations
+
+* Added more support for Free and Open soruce Web browser like Swiftweasel, GNU IceCat, Chromium
+
 1.0a1 - (2010-08-07)
 --------------------
 
