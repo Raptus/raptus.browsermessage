@@ -2,7 +2,7 @@
 <object name="portal_controlpanel"
         meta_type="Plone Control Panel Tool"
         xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-        i18n:domain="raptus.browsermessage">
+        i18n:domain="plone">
  <configlet title="Manage browser message"
             action_id="raptus.browsermessage"
             appId="raptus.browsermessage"
