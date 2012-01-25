@@ -2,8 +2,7 @@
 <object name="portal_properties" meta_type="Plone Properties Tool">
  <object name="browsermessage_properties" meta_type="Plone Property Sheet">
   <property name="title">Browser message properties</property>
-  <property name="browsers" type="lines">
-   <element value="isIE6"/>
+  <property name="browsers" type="lines" purge="false">
   </property>
  </object>
 </object>

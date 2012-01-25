@@ -56,7 +56,7 @@
    <property name="permissions">
     <element value="View"/>
    </property>
-   <property name="visible">True</property>
+   <property name="visible">False</property>
   </object>
   <object name="icecat" meta_type="CMF Action" i18n:domain="raptus.browsermessage">
    <property name="title" i18n:translate="">IceCat</property>
@@ -67,7 +67,7 @@
    <property name="permissions">
     <element value="View"/>
    </property>
-   <property name="visible">True</property>
+   <property name="visible">False</property>
   </object>
   <object name="chromium" meta_type="CMF Action" i18n:domain="raptus.browsermessage">
    <property name="title" i18n:translate="">Chromium</property>
@@ -78,7 +78,7 @@
    <property name="permissions">
     <element value="View"/>
    </property>
-   <property name="visible">True</property>
+   <property name="visible">False</property>
   </object>
  </object>
 </object>

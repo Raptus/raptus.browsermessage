@@ -1,14 +1,16 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser">
-        
+
     <browser:page
         for="Products.CMFPlone.interfaces.IPloneSiteRoot"
         name="manage-browsermessage"
-        class=".configlet.BrowserMessageConfiglet"
+        class=".configlet.BrowserMessageControlPanel"
         permission="cmf.ManagePortal"
         />
-    
+
+    <adapter factory=".configlet.BrowserMessageControlPanelAdapter" />
+
     <browser:viewlet
         name="raptus.browsermessage"
         manager="plone.app.layout.viewlets.interfaces.IPortalFooter"

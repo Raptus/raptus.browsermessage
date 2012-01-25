@@ -47,4 +47,34 @@
   float:right;
 }
 
+
+/* configlet */
+
+form[action$="@@manage-browsermessage"] .sequencewidget {
+  border-collapse:collapse;
+}
+
+form[action$="@@manage-browsermessage"] .sequencewidget fieldset {
+  overflow:hidden;
+  border:none;
+  margin:0;
+  padding:0;
+  font-size:80%;
+}
+
+form[action$="@@manage-browsermessage"] .sequencewidget td {
+  padding:0.5em 0;
+  border-top:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+}
+
+form[action$="@@manage-browsermessage"] .sequencewidget fieldset .row {
+  float:left;
+  width:25%;
+}
+
+form[action$="@@manage-browsermessage"] .sequencewidget fieldset legend {
+  display:none;
+}
+
+
 /* </dtml-with> */

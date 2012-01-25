@@ -8,6 +8,9 @@ from Products.CMFCore.utils import getToolByName
 from Products.Five.browser import BrowserView
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
+from raptus.browsermessage.interfaces import IBrowserConditions, IBrowserDetection
+
+
 class BrowserMessage(BrowserView):
     implements(IViewlet)
 
@@ -18,21 +21,18 @@ class BrowserMessage(BrowserView):
         self.request = request
         self.view = view
         self.manager = manager
-        self.detector = getMultiAdapter((self.context, self.request), name=u'browser-detector')
-        
+        self.detector = getMultiAdapter((self.context, self.request), interface=IBrowserDetection)
+        self.conditions = IBrowserConditions(self.context)
         if self.request.get('browsermessage_ignore', 0):
             self.request.SESSION.set('browsermessage_ignore', 1)
-        
+
     def available(self):
-        properties = getattr(getToolByName(self.context, 'portal_properties'), 'browsermessage_properties', None)
-        if not properties:
-            return 0
-        browsers = properties.getProperty('browsers', [])
-        if not browsers or self.request.SESSION.get('browsermessage_ignore', 0):
-            return 0
-        for method in browsers:
-            if getattr(self.detector, method, False):
+        if self.request.SESSION.get('browsermessage_ignore', 0):
+            return False
+        for condition in self.conditions:
+            if self.detector.check(condition):
                 return True
+        return False
     
     @memoize
     def suggest(self):
@@ -40,5 +40,5 @@ class BrowserMessage(BrowserView):
 
     def render(self):
         return self.index()
-    
+
     index = ViewPageTemplateFile('viewlet.pt')

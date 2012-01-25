@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: raptus.browsermessage\n"
-"POT-Creation-Date: 2009-09-02 07:33+0000\n"
+"POT-Creation-Date: 2012-01-25 10:43+0000\n"
 "PO-Revision-Date: 2009-11-26 15:45+0100\n"
 "Last-Translator: Simon Käser <skaeser@raptus.com>\n"
 "Language-Team: French\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,173 +16,143 @@ msgstr ""
 "Domain: raptus.browsermessage\n"
 "X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
 
-#: ../profiles/default/actions.xml
+#. Default: "A open-source Google Chrome version"
+#: profiles/default/actions.xml
 msgid "A open-source Google Chrome version"
 msgstr ""
 
-#: ../profiles/default/actions.xml
+#. Default: "Apple Safari"
+#: profiles/default/actions.xml
 msgid "Apple Safari"
 msgstr ""
 
-#. Default: "Browsers for which the message appears"
-#: ../browser/configlet.pt:46
+#: interfaces.py:46
+msgid "Browser"
+msgstr ""
+
+#: interfaces.py:99
 msgid "Browsers for which the message appears"
 msgstr "Navigateurs qui montrent ce message"
 
-#. Default: "Browsers to suggest"
-#: ../browser/configlet.pt:82
+#: interfaces.py:107
 msgid "Browsers to suggest"
 msgstr "Navigateurs à recommander"
 
 #. Default: "Chrome"
-#: ../profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Chrome"
 msgstr "Chrome"
 
-#: ../config.py:33
-msgid "Chrome on Linux"
-msgstr ""
-
-#: ../config.py:32
-msgid "Chrome on Mac"
-msgstr ""
-
-#: ../config.py:34
-msgid "Chrome on Win"
-msgstr ""
-
-#: ../profiles/default/actions.xml
+#. Default: "Chromium"
+#: profiles/default/actions.xml
 msgid "Chromium"
 msgstr ""
 
 #. Default: "Firefox"
-#: ../profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Firefox"
 msgstr "Firefox"
 
-#: ../config.py:27
-msgid "Firefox on Linux"
-msgstr ""
-
-#: ../config.py:26
-msgid "Firefox on Mac"
-msgstr ""
-
-#: ../config.py:28
-msgid "Firefox on Win"
-msgstr ""
-
-#: ../profiles/default/actions.xml
+#. Default: "GNU version of the Mozilla Firefox"
+#: profiles/default/actions.xml
 msgid "GNU version of the Mozilla Firefox"
 msgstr ""
 
-#: ../config.py:24
-msgid "Gecko on Linux"
-msgstr ""
-
-#: ../config.py:23
-msgid "Gecko on Mac"
-msgstr ""
-
-#: ../config.py:25
-msgid "Gecko on Win"
-msgstr ""
-
-#: ../profiles/default/actions.xml
+#. Default: "Google Chrome"
+#: profiles/default/actions.xml
 msgid "Google Chrome"
 msgstr ""
 
-#: ../profiles/default/actions.xml
+#. Default: "IceCat"
+#: profiles/default/actions.xml
 msgid "IceCat"
 msgstr ""
 
 #. Default: "Ignore"
-#: ../browser/viewlet.pt:35
+#: browser/viewlet.pt:35
 msgid "Ignore"
 msgstr "Ignorer"
 
-#: ../browser/viewlet.pt:35
+#. Default: "Ignore this message"
+#: browser/viewlet.pt:35
 msgid "Ignore this message"
 msgstr ""
 
-#. Default: "Manage browser message"
-#: ../browser/configlet.pt:24
+#: browser/configlet.py:58
 msgid "Manage browser message"
 msgstr "Gérer le message navigateur"
 
-#: ../profiles/default/actions.xml
+#. Default: "Mozilla Firefox"
+#: profiles/default/actions.xml
 msgid "Mozilla Firefox"
 msgstr ""
 
 #. Default: "Opera"
-#: ../profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Opera"
 msgstr "Opera"
 
-#: ../profiles/default/actions.xml
+#. Default: "Opera Web browser"
+#: profiles/default/actions.xml
 msgid "Opera Web browser"
 msgstr ""
 
-#: ../config.py:30
-msgid "Opera on Linux"
-msgstr ""
-
-#: ../config.py:29
-msgid "Opera on Mac"
-msgstr ""
-
-#: ../config.py:31
-msgid "Opera on Win"
+#: interfaces.py:34
+msgid "Platform"
 msgstr ""
 
 #. Default: "Please upgrade"
-#: ../browser/viewlet.pt:13
+#: browser/viewlet.pt:13
 msgid "Please upgrade"
 msgstr "Veuillez mettre à jour"
 
 #. Default: "Safari"
-#: ../profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Safari"
 msgstr "Safari"
 
-#: ../config.py:21
-msgid "Safari on Mac"
-msgstr ""
-
-#: ../config.py:22
-msgid "Safari on Win"
-msgstr ""
-
-#. Default: "Select"
-#: ../browser/configlet.pt:42
-msgid "Select"
-msgstr "Choisir"
-
-#. Default: "Select the Browsers for which the upgrade message shall appear"
-#: ../browser/configlet.pt:51
+#: interfaces.py:100
 msgid "Select the Browsers for which the upgrade message shall appear"
-msgstr "Choisissez les navigateurs pour lesquels le message de mise à jour doit apparaître"
+msgstr ""
+"Choisissez les navigateurs pour lesquels le message de mise à jour doit "
+"apparaître"
 
-#. Default: "Select the Browsers to present to the user for upgrade"
-#: ../browser/configlet.pt:87
+#: interfaces.py:108
 msgid "Select the Browsers to present to the user for upgrade"
-msgstr "Choisissez les navigateurs présentés à l'utilisateur pour la mise à jour"
+msgstr ""
+"Choisissez les navigateurs présentés à l'utilisateur pour la mise à jour"
 
-#: ../profiles/default/actions.xml
+#. Default: "Swiftweasel"
+#: profiles/default/actions.xml
 msgid "Swiftweasel"
 msgstr ""
 
-#: ../profiles/default/actions.xml
+#. Default: "Swiftweasel Web browser"
+#: profiles/default/actions.xml
 msgid "Swiftweasel Web browser"
 msgstr ""
 
 #. Default: "This website has not been tested in your Browser (${browser}), you may come across layout or functionality problems, which may result in inaccessible content or behaviour."
-#: ../browser/viewlet.pt:10
-msgid "This website has not been tested in your Browser (${browser}), you may come across layout or functionality problems, which may result in inaccessible content or behaviour."
-msgstr "Ce site web n'a pas été testé avec votre navigateur (${browser}), vous pourriez rencontrer des problèmes d'affichage ou de fonctionalité, ce qui pourrait à son tour rendre inaccessible certaines information ou fonctions pour vous."
+#: browser/viewlet.pt:10
+msgid ""
+"This website has not been tested in your Browser (${browser}), you may come "
+"across layout or functionality problems, which may result in inaccessible "
+"content or behaviour."
+msgstr ""
+"Ce site web n'a pas été testé avec votre navigateur (${browser}), vous "
+"pourriez rencontrer des problèmes d'affichage ou de fonctionalité, ce qui "
+"pourrait à son tour rendre inaccessible certaines information ou fonctions "
+"pour vous."
+
+#: interfaces.py:64
+msgid "Version maximum"
+msgstr ""
+
+#: interfaces.py:59
+msgid "Version minimum"
+msgstr ""
 
 #. Default: "Your Browser is not up to date"
-#: ../browser/viewlet.pt:5
+#: browser/viewlet.pt:5
 msgid "Your Browser is not up to date"
 msgstr "Votre navigateur n'est pas à jour."
-

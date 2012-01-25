@@ -5,7 +5,7 @@ version = '2.0b1'
 
 setup(name='raptus.browsermessage',
       version=version,
-      description="Configurable upgrade message for visitors using a outdated browser",
+      description="Configurable upgrade message for visitors using an outdated browser",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
@@ -24,7 +24,6 @@ setup(name='raptus.browsermessage',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'collective.browserdetector',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
