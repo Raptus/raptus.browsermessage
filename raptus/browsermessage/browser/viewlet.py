@@ -41,4 +41,8 @@ class BrowserMessage(BrowserView):
     def render(self):
         return self.index()
 
+    @property
+    def browsermessage_js(self):
+        return 'browsermessage.js'
+
     index = ViewPageTemplateFile('viewlet.pt')
