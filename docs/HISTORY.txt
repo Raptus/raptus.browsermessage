@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.0b5 (2012-02-06)
+* Internet Explorer Suggestion added.
+
+
 2.0b4 (2012-02-02)
 ------------------
 * fixed browsermessage.js

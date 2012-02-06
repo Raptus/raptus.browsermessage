@@ -80,5 +80,16 @@
    </property>
    <property name="visible">False</property>
   </object>
+  <object name="ie" meta_type="CMF Action" i18n:domain="raptus.browsermessage">
+   <property name="title" i18n:translate="">Intenet Explorer</property>
+   <property name="description" i18n:translate="">Microsoft Internet Explorer</property>
+   <property name="url_expr">string:http://www.microsoft.com/internetexplorer/</property>
+   <property name="icon_expr">string:ie.png</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">False</property>
+  </object>
  </object>
 </object>

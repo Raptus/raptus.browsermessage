@@ -148,3 +148,9 @@ msgstr ""
 msgid "Your Browser is not up to date"
 msgstr ""
 
+# Internet Explorer 
+msgid "Intenet Explorer"
+msgstr ""
+
+msgid "Microsoft Internet Explorer"
+msgstr ""
