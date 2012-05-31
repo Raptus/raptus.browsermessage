@@ -1,6 +1,9 @@
 from zope import schema
 from zope.interface import implementer
-from zope.site.hooks import getSite
+try:
+    from zope.site.hooks import getSite
+except ImportError: # Plone < 4
+    from zope.app.component.hooks import getSite
 
 from Products.CMFCore.utils import getToolByName
 

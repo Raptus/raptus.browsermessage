@@ -1,7 +1,13 @@
 Changelog
 =========
 
+2.0b6 (2012-05-31)
+------------------
+
+* Python 2.4 & Plone 3 compatibility
+
 2.0b5 (2012-02-06)
+------------------
 * Internet Explorer Suggestion added.
 
 

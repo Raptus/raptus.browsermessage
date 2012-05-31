@@ -6,6 +6,7 @@ from Products.CMFCore.utils import getToolByName
 
 from raptus.browsermessage.interfaces import IBrowserCondition, IBrowserConditions
 
+
 class BrowserCondition(object):
     implements(IBrowserCondition)
 
@@ -19,13 +20,30 @@ class BrowserCondition(object):
 
     @staticmethod
     def from_str(string):
-        platform, browser, version_min, version_max = string.split(';')
+        try:
+            platform, browser, version_min, version_max = string.split(';')
+        except:
+            return
+
         condition = BrowserCondition()
-        condition.platform = set([]) if not platform else set(platform.split(','))
-        condition.browser = None if browser == 'None' else browser
-        condition.version_min = None if version_min == 'None' else int(version_min)
-        condition.version_max = None if version_max == 'None' else int(version_max)
+        if not platform:
+            condition.platform = set([])
+        else:
+            condition.platform = set(platform.split(','))
+        if browser == 'None':
+            condition.browser = None
+        else:
+            condition.browser = browser
+        if version_min == 'None':
+            condition.version_min = None
+        else:
+            condition.version_min = int(version_min)
+        if version_max == 'None':
+            condition.version_max = None
+        else:
+            condition.version_max = int(version_max)
         return condition
+
 
 class BrowserConditions(object):
     implements(IBrowserConditions)
@@ -34,6 +52,7 @@ class BrowserConditions(object):
     def __init__(self, context):
         self.context = context
         self.properties = getToolByName(self.context, 'portal_properties').browsermessage_properties
+        
 
     def add(self, condition):
         self.properties._updateProperty('browsers', list(self.properties.getProperty('browsers', [])) + [str(condition),])
