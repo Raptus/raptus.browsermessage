@@ -6,7 +6,7 @@ version = '2.0b6'
 setup(name='raptus.browsermessage',
       version=version,
       description="Configurable upgrade message for visitors using an outdated browser",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='raptus.browsermessage',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/raptus.browsermessage',
+      url='https://github.com/Raptus/raptus.browsermessage',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['raptus'],
