@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.0b7 (2013-04-19)
+------------------
+
+* fixed minor bug when there are empty lines in property field
+
 2.0b6 (2012-05-31)
 ------------------
 
