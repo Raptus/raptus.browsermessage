@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0b8 (unreleased)
+2.0b8 (2013-05-15)
 ------------------
 
 * Fixed syntax error introduced in 2.0b7
