@@ -4,7 +4,7 @@ Changelog
 2.0b8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+* Fixed syntax error introduced in 2.0b7
 
 
 2.0b7 (2013-04-19)

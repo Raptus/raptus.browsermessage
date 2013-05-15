@@ -29,8 +29,8 @@ class BrowserMessage(BrowserView):
     def available(self):
         if self.request.SESSION.get('browsermessage_ignore', 0):
             return False
-        for condition is not None and condition in self.conditions:
-            if self.detector.check(condition):
+        for condition in self.conditions:
+            if condition is not None and self.detector.check(condition):
                 return True
         return False
     
